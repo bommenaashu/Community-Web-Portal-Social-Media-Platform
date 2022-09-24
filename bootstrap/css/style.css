@@ -1,0 +1,76 @@
+body
+{
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 500px;
+}
+.nav-link
+{
+    font-size: 18px;
+    color: grey !important;
+    padding: 10px 35px !important;
+    margin: 10px 10px;
+}
+.nav-link:hover
+{
+    box-shadow:  0 0 10px grey;
+    background-color: #0d47a1;
+    color: white !important;
+    padding: 10px 35px !important;
+    margin: 10px 0px;
+    border-radius: 30px;
+    margin: 10px 10px;
+}
+
+/* Change background color */
+#changeColor
+{
+    width: 300px;
+    height: 800px;
+    background: red;
+    animation: changing 5s infinite;
+}
+@keyframes changing {
+    from {background-color: rgb(17, 153, 142); background-image: linear-gradient(-40deg, rgba(56, 239, 125, 0.8), rgba(255, 255, 255, 0))}
+    to {background-color: rgb(255, 95, 109); background-image: linear-gradient(-40deg, rgba(255, 195, 113, 0.8), rgba(255, 255, 255, 0));;}
+}
+
+.m-mymargin
+{
+    color: white;
+    margin-top: 300px;
+    margin-left: 90px;
+}
+
+.req-btn
+{
+    margin-top: 10px;
+    border-radius: 30px !important;
+}
+
+.display-pic
+{
+    background: url("../../img/mainlogo.png") no-repeat scroll;
+    position: center;
+    top: 100px;
+    background-size: cover;
+    margin-right: 50px;
+}
+
+.my-input
+{
+    width: 645px !important;
+    margin-top: 316px;
+    height: 80px !important;
+    margin-left: 110px;
+    border-radius: 40px;
+    outline: none;
+    box-shadow: 0 0 10px black;
+    font-size: 30px;
+}
+
+/* Cards */
+
+.text-pink
+{
+    color: hotpink;
+}
